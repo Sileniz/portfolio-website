@@ -1,5 +1,6 @@
 .Image{
-  height: fit;
+  width: min-content;
+  height: 100%;
   margin-right: 5px;
   filter: invert(1);
 }
