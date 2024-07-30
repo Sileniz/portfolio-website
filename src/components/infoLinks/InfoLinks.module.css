@@ -9,4 +9,17 @@
   display: flex;
   height: 40px;
   align-items: center;
+  font-size: 16px;
+}
+@media (max-width: 896px) {
+  .divLinks{
+    font-size: 14px;
+    width: 180%;
+  }
+  .Image{
+    width: 35px;
+    height: auto;
+    margin-right: 5px;
+    filter: invert(1);
+  }
 }

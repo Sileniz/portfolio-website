@@ -5,6 +5,8 @@
   border: none;
 }
 .info{
+  display: flex;
+  flex-direction: column;
   color: white;
   font-size: 16px;
 }
@@ -21,4 +23,28 @@
   margin-top: 10px;
   font-size: 0.9em;
   font-weight: 400;
+}
+@media (max-width: 896px) {
+  .info{
+    color: white;
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 759px) {
+  .info{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  .titleAbout{
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  .subAbout{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
 }
