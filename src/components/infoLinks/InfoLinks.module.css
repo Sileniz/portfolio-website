@@ -1,6 +1,5 @@
 .Image{
-  width: 40px;
-  height: auto;
+  height: fit;
   margin-right: 5px;
   filter: invert(1);
 }
@@ -21,5 +20,14 @@
     height: auto;
     margin-right: 5px;
     filter: invert(1);
+  }
+}
+@media (max-width: 440px) {
+  .divLinks{
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

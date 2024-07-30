@@ -1,5 +1,5 @@
 .lang{
-  width: fit-content;
+  height: auto;
   border-radius: 3px;
 }
 .divLang{
@@ -9,4 +9,9 @@
   gap: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+@media (max-width: 440px) {
+  .divLang{
+    width: 100%;
+  }
 }

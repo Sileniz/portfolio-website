@@ -30,3 +30,21 @@
     }
   
 }
+@media (max-width: 440px) {
+  .divAbout{
+    width: 300px;
+  }
+  .divLinks{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hrLinks{
+    margin-right: 20px;
+    width: 0px;
+    height: 0%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+}

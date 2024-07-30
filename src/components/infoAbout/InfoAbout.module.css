@@ -48,3 +48,23 @@
     font-weight: 500;
   }
 }
+@media (max-width: 440px) {
+  .info{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .titleAbout{
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .subAbout{
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  .pAbout{
+    text-align: center;
+  }
+}
