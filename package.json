@@ -1,6 +1,9 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
+  "type": "module",
+  "author": "Walisson (Sileniz)",
+  "description": "Personal website",
   "private": true,
   "scripts": {
     "dev": "next dev",
