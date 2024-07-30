@@ -1,0 +1,23 @@
+.containerProjects {
+  padding-block: 80px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px; 
+}
+@media (max-width: 611px) {
+  .containerProjects {
+    grid-template-columns: 1fr ;
+  }
+}
+@media (min-width: 1154px) {
+  .containerProjects {
+    padding-block: 80px;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 16px; 
+  }
+}
