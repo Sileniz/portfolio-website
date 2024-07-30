@@ -1,10 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import styles from "@/app/page.module.css";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
+import About from "@/components/about/About";
 export default function Home() {
   return (
-    <main>
-      <h1>Ola mundo</h1>
-    </main>
+    <>
+    <Header/>
+      <main className={styles.main}>
+          <About/>
+      </main>
+    <Footer/>
+    </>
   );
 }

@@ -1,0 +1,24 @@
+.hrAbout{
+  width: 100%;
+  padding: 1px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.info{
+  color: white;
+  font-size: 16px;
+}
+.titleAbout{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.subAbout{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.pAbout{
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: 400;
+}

@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'JetBrains mono';
 }
-
-html,
+a {
+  color: white;
+  text-decoration: none;
+}
 body {
-  max-height: 100vh;
-  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

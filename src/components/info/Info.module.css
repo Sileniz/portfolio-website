@@ -1,0 +1,25 @@
+.divAbout{
+  width: 550px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.divLinks{
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.hrLinks{
+  margin-right: 20px;
+  width: 7px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.hrAbout{
+  width: 100%;
+  padding: 1px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}

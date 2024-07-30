@@ -1,0 +1,12 @@
+.lang{
+  height: auto;
+  border-radius: 3px;
+}
+.divLang{
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
