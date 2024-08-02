@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  width: 350px;
+  width: 440px;
   height: auto;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 8px 0px black;
@@ -37,30 +37,47 @@
 .githubLink:hover{
   color: #2c2b6a;
 }
+
+@media screen and (max-width: 945px) {
+  .containerProject {
+    width: 350px;
+    font-size: 12px;
+  }
+  .githubLink {
+    padding: 10px;
+  }
+  .containerProject > p {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+}
+
 @media (max-width: 755px) {
-  .containerProject{
+  .containerProject {
     width: 280px;
     box-shadow: 0px 8px 0px black;
     padding: 5px 5px 0px 5px;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .githubLink {
+    padding: 9px;
+  }
+  .containerProject > p {
+    padding: 9px;
   }
 }
+
 @media (max-width: 599px) {
-  .containerProject{
+  .containerProject {
     width: 370px;
-    font-size: 12px;
+    font-size: 13px;
   }
 }
+
 @media (max-width: 427px) {
-  .containerProject{
+  .containerProject {
     width: 270px;
     font-size: 12px;
-  }
-}
-@media (min-width: 1454px) {
-  .containerProject{
-    width: 440px;
-    font-size: 16px;
   }
 }
