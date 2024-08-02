@@ -1,7 +1,7 @@
 import Project from "@/components/project/Project"
 import projects from "@/utils/projects"
 import styles from "./ListProjects.module.css"
-
+import Image from "next/image"
 export default function ListProject(){
   return (
     <div className={styles.containerProjects}>
