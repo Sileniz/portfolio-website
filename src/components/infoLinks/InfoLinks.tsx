@@ -3,6 +3,7 @@ import Link from "next/link"
 import github from "@/assets/25231.png"
 import linkedin from "@/assets/linkedin.png"
 import styles from "./InfoLinks.module.css"
+
 export default function InfoLinks() {
   return (
     <div className={styles.divLinks}>
