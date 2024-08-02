@@ -41,7 +41,15 @@
 .githubLink:hover{
   color: #2c2b6a;
 }
-
+.Stack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
 @media screen and (max-width: 945px) {
   .containerProject {
     width: 350px;
@@ -54,8 +62,10 @@
     font-size: 1.2em;
     padding: 10px;
   }
+  .Stack{
+    font-size: 14px;
+  }
 }
-
 @media (max-width: 755px) {
   .containerProject {
     width: 280px;
@@ -70,12 +80,18 @@
   .containerProject > p {
     padding: 9px;
   }
+  .Stack{
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 599px) {
   .containerProject {
     width: 370px;
     font-size: 13px;
+  }
+  .Stack{
+    font-size: 15px;
   }
 }
 

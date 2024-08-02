@@ -6,7 +6,7 @@ export default function ListProject(){
   return (
     <div className={styles.containerProjects}>
       {projects.map((value, index) => (
-        <Project src={value.src} text={value.text} key={index} github={value.github}/>
+        <Project src={value.src} text={value.text} key={index} github={value.github} stack={value.stack}/>
       ))}
     </div>
   )
