@@ -6,7 +6,7 @@ type ProjectProps = {
   text: string;
   src: StaticImageData;
   github: string;
-  stack: any
+  stack: string
 };
 export default function Project({text,src,github, stack}: ProjectProps) {
   return (
