@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
   align-items: center;
   width: 440px;
   height: auto;
@@ -13,16 +14,34 @@
   font-size: 16px;
 }
 
-.containerProject > img{
+.imgProject{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+.imgGray{
+  cursor: pointer;
+  filter: brightness(30%);
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-.containerProject > p{
+.title{
   font-size: 1.2em;
   padding: 13px;
 }
+.About{
+  z-index: 1;
+  color: white;
+  position: absolute;
+  font-size: 0.9em;
+  text-align: center;
+  padding-inline: 15px;
+}
 .githubLink{
+  z-index: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
